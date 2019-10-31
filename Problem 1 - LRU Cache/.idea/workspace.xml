@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="942ebcdc-433d-42dc-8c68-efb41760f2f8" name="Default Changelist" comment="" />
+    <list default="true" id="942ebcdc-433d-42dc-8c68-efb41760f2f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU_Cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/LRU_Cache.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +20,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+            <state relative-caret-position="819">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
               <folding>
-                <element signature="e#63#192#0" />
-                <element signature="e#812#834#0" />
-                <element signature="e#868#891#0" />
-                <element signature="e#2675#2791#0" />
+                <element signature="e#16#94#0" />
+                <element signature="e#188#349#0" />
+                <element signature="e#969#1140#1" />
+                <element signature="e#1742#1813#0" />
+                <element signature="e#1937#2061#1" />
+                <element signature="e#2463#2538#1" />
+                <element signature="e#2471#2495#0" />
+                <element signature="e#2529#2558#0" />
+                <element signature="e#1725#1935#1" />
+                <element signature="e#1981#2071#1" />
+                <element signature="e#2307#2475#1" />
+                <element signature="e#2880#3170#1" />
+                <element signature="e#3735#3851#0" />
               </folding>
             </state>
           </provider>
@@ -37,6 +50,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -44,10 +60,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="652" />
+    <option name="y" value="23" />
+    <option name="width" value="1908" />
+    <option name="height" value="1311" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -68,6 +87,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RunDashboard">
@@ -133,7 +154,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="652" y="23" width="1908" height="1311" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.09395185" />
@@ -141,7 +162,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50110376" side_tool="true" weight="0.24980268" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39970392" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39916667" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.20207255" />
@@ -149,11 +170,11 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32938564" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.33012584" />
-      <window_info anchor="right" x="0" y="0" width="388" height="1240" id="Documentation" order="0" side_tool="true" visible="true" weight="0.16666667" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" x="1735" y="465" width="584" height="307" id="Run" order="4" side_tool="true" type="FLOATING" weight="0.28375286" />
+      <window_info active="true" anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="10" sideWeight="0.5075" side_tool="true" type="WINDOWED" visible="true" weight="0.26583335" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="1976" y="119" width="518" height="405" id="Documentation" order="3" sideWeight="0.4925" side_tool="true" visible="true" weight="0.27801725" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -166,13 +187,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+        <state relative-caret-position="819">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
           <folding>
-            <element signature="e#63#192#0" />
-            <element signature="e#812#834#0" />
-            <element signature="e#868#891#0" />
-            <element signature="e#2675#2791#0" />
+            <element signature="e#16#94#0" />
+            <element signature="e#188#349#0" />
+            <element signature="e#969#1140#1" />
+            <element signature="e#1742#1813#0" />
+            <element signature="e#1937#2061#1" />
+            <element signature="e#2463#2538#1" />
+            <element signature="e#2471#2495#0" />
+            <element signature="e#2529#2558#0" />
+            <element signature="e#1725#1935#1" />
+            <element signature="e#1981#2071#1" />
+            <element signature="e#2307#2475#1" />
+            <element signature="e#2880#3170#1" />
+            <element signature="e#3735#3851#0" />
           </folding>
         </state>
       </provider>

@@ -1,35 +1,98 @@
-class Queue:
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
 
-    def __init__(self, initial_size=10):
-        self.arr = [0 for _ in range(initial_size)]
-        self.next_index = 0
-        self.front_index = -1
-        self.queue_size = 0
+
+class LinkedList:
+    def __init__(self):
+        self.head = None  # least recently used pointer - "back" of DoublyLinkedList
+        self.tail = None  # most recently used pointer - "front" of DoublyLinkedList
+
+    def move_to_front(self, value):
+        """
+        Moves DoubleNode with particular value, value, to the front/tail of DoublyLinkedList
+
+        :param value: Value to be moved
+        :return: None
+        """
+        node = self.head
+
+        if node.value != value:
+
+            # Search for DoubleNode with value we want to move
+            while node.next:
+                # Adjust next pointer
+                node = node.next
+
+                if node.value == value:
+                    break
+                node = node.next
+
+        # Add designated node to LinkedList
+        self.tail.next = node
+
+        # Move head forward
+        self.head = self.head.next
+
+        # Move tail forward
+        self.tail = self.tail.next
+
+
+class Queue(LinkedList):
+    def __init__(self):
+        super().__init__()
+        self.num_elements = 0
 
     def enqueue(self, value):
-        self.arr[self.next_index] = value
-        self.queue_size += 1
-        self.next_index = (self.next_index + 1) % len(self.arr)
-        if self.front_index == -1:
-            self.front_index = 0
+        """
+        Appends a new value to front/tail
+
+        :param value: Value to be added
+        :return: None
+        """
+        new_node = Node(value)
+
+        if self.head is None:
+            self.head = new_node
+            self.tail = self.head
+            return
+
+        self.tail.next = new_node  # add data to the next attribute of the tail (i.e. the end of the queue)
+        self.tail = self.tail.next  # shift the tail (i.e., the back of the queue)
+
+        self.num_elements += 1
 
     def dequeue(self):
+        """
+        Removes back/head element
+
+        :return: None
+        """
         if self.is_empty():
-            self.front_index = -1  # resetting pointers
-            self.next_index = 0
             return None
 
-        # dequeue front element
-        value = self.arr[self.front_index]
-        self.front_index = (self.front_index + 1) % len(self.arr)
-        self.queue_size -= 1
+        value = self.head.value
+        self.head = self.head.next
+        self.num_elements -= 1
         return value
 
     def size(self):
-        return self.queue_size
+        return self.num_elements
 
     def is_empty(self):
-        return self.size() == 0
+        return self.num_elements == 0
+
+    def __repr__(self):
+        s = ''
+        node = self.head
+
+        while node.next:
+            s += str(node.value) + ' '
+            node = node.next
+
+        s += str(self.tail.value)
+        return s
 
 
 class LRU_Cache(object):
@@ -46,8 +109,8 @@ class LRU_Cache(object):
         :param capacity: size of cache
         """
         self.cache = dict()
+        self.recently_used = Queue()  # keeps track of which keys were the most/least recently used
         self.capacity = capacity
-        self.keysInserted = Queue(capacity)  # used to keep track of the oldest item
 
     def get(self, key):
         """
@@ -60,8 +123,15 @@ class LRU_Cache(object):
 
         # Cache Hit - entry is found
         if key in self.cache:
-            self.keysInserted.enqueue(key)
-            return self.cache[key]
+            # Get entry from cache
+            entry = self.cache[key]
+
+            # TODO: Move item to front/tail of recently_used
+            self.recently_used.move_to_front(key)
+            print("self.recently_used:", self.recently_used)
+
+            # Return entry
+            return entry
 
         # Catch Miss - entry isn't found
         return -1
@@ -77,22 +147,29 @@ class LRU_Cache(object):
         :return:
         """
 
-        # If cache is full
-        if self.keysInserted.size == self.capacity:
-
-            # remove oldest item
-            self.cache.pop(self.keysInserted.dequeue())
-
-            # insert element into cache
+        # If key isn't in the cache
+        if key not in self.cache:
+            # Add entry to cache
             self.cache[key] = value
-            self.keysInserted.enqueue(key)
 
-        # If key isn't present in the cache
-        if self.get(key) == -1:
+            # Add item to front/tail of recently_used
+            self.recently_used.enqueue(key)
 
-            # insert element into cache
-            self.cache[key] = value
-            self.keysInserted.enqueue(key)
+            # TODO: Check and handle capacity - if full, delete oldest entry (back/head of recently_used)
+            if self.recently_used.num_elements == self.capacity:
+                oldest_entry = self.recently_used.dequeue()
+                self.recently_used.enqueue(oldest_entry)
+
+            print("self.recently_used:", self.recently_used)
+
+            return
+
+        # Key is in the cache
+        self.cache[key] = value
+
+        # TODO: Move item to front/tail of recently_used
+        self.recently_used.move_to_front(key)
+        print("self.recently_used:", self.recently_used)
 
     def __repr__(self):
         s = ''
@@ -103,22 +180,43 @@ class LRU_Cache(object):
 
 our_cache = LRU_Cache(5)
 
+print("--our_cache.set(1, 1)--")
 our_cache.set(1, 1)
+print("our_cache:", our_cache, '\n')
+
+print("--our_cache.set(2, 2)--")
 our_cache.set(2, 2)
+print("our_cache:", our_cache, '\n')
+
+print("--our_cache.set(3, 3)--")
 our_cache.set(3, 3)
+print("our_cache:", our_cache, '\n')
+
+print("--our_cache.set(4, 4)--")
 our_cache.set(4, 4)
-print(our_cache)
+print("our_cache:", our_cache, '\n')
 
-print("our_cache.get(1):", our_cache.get(1))  # returns 1
-print("our_cache.get(2):", our_cache.get(2))  # returns 2
-print("our_cache.get(9):", our_cache.get(9))  # returns -1 because 9 is not present in the cache
+print("--our_cache.get(1)--")
+print(our_cache.get(1))  # returns 1
+print("our_cache:", our_cache, '\n')
 
+print("--our_cache.get(2)--")
+print(our_cache.get(2))  # returns 2
+print("our_cache:", our_cache, '\n')
+
+print("--our_cache.get(9)--")
+print(our_cache.get(9))  # returns -1 because 9 is not present in the cache
+print("our_cache:", our_cache, '\n')
+
+print("--our_cache.set(5, 5)--")
 our_cache.set(5, 5)
-print(our_cache)
+print("our_cache:", our_cache, '\n')
 
-
+print("--our_cache.set(6, 6)--")
 our_cache.set(6, 6)
-print(our_cache)
+print("our_cache:", our_cache, '\n')
 
 # returns -1 because the cache reached it's capacity and 3 was the least recently used entry
-print("our_cache.get(3):", our_cache.get(3))
+print("--our_cache.get(3)--")
+print(our_cache.get(3))
+print("our_cache:", our_cache, '\n')
