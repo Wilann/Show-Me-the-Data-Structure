@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="942ebcdc-433d-42dc-8c68-efb41760f2f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LRU_Cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/LRU_Cache.py" afterDir="false" />
     </list>
@@ -20,22 +19,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="437">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding>
                 <element signature="e#16#94#0" />
-                <element signature="e#188#349#0" />
-                <element signature="e#969#1140#1" />
-                <element signature="e#1742#1813#0" />
-                <element signature="e#1937#2061#1" />
-                <element signature="e#2463#2538#1" />
-                <element signature="e#2471#2495#0" />
-                <element signature="e#2529#2558#0" />
-                <element signature="e#1725#1935#1" />
-                <element signature="e#1981#2071#1" />
-                <element signature="e#2307#2475#1" />
-                <element signature="e#2880#3170#1" />
-                <element signature="e#3735#3851#0" />
+                <element signature="e#147#308#0" />
+                <element signature="e#1110#1158#0" />
+                <element signature="e#1997#2021#0" />
+                <element signature="e#2055#2084#0" />
+                <element signature="e#2118#2295#0" />
+                <element signature="e#4660#4776#0" />
               </folding>
             </state>
           </provider>
@@ -71,20 +64,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Problem 1 - LRU Cache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problem 1 - LRU Cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -142,6 +122,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571910154544</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ver2 using Queue implemented with LinkedList">
+      <created>1572541183023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572541183023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -165,17 +153,21 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39916667" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.20207255" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32938564" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.33012584" />
-      <window_info active="true" anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="10" sideWeight="0.5075" side_tool="true" type="WINDOWED" visible="true" weight="0.26583335" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32938564" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.33012584" />
+      <window_info active="true" anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="9" sideWeight="0.5075" side_tool="true" type="WINDOWED" visible="true" weight="0.26583335" />
+      <window_info anchor="bottom" id="TODO" order="10" side_tool="true" visible="true" weight="0.15916666" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="1976" y="119" width="518" height="405" id="Documentation" order="3" sideWeight="0.4925" side_tool="true" visible="true" weight="0.27801725" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ver2 using Queue implemented with LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver2 using Queue implemented with LinkedList" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
@@ -187,22 +179,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="437">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
             <element signature="e#16#94#0" />
-            <element signature="e#188#349#0" />
-            <element signature="e#969#1140#1" />
-            <element signature="e#1742#1813#0" />
-            <element signature="e#1937#2061#1" />
-            <element signature="e#2463#2538#1" />
-            <element signature="e#2471#2495#0" />
-            <element signature="e#2529#2558#0" />
-            <element signature="e#1725#1935#1" />
-            <element signature="e#1981#2071#1" />
-            <element signature="e#2307#2475#1" />
-            <element signature="e#2880#3170#1" />
-            <element signature="e#3735#3851#0" />
+            <element signature="e#147#308#0" />
+            <element signature="e#1110#1158#0" />
+            <element signature="e#1997#2021#0" />
+            <element signature="e#2055#2084#0" />
+            <element signature="e#2118#2295#0" />
+            <element signature="e#4660#4776#0" />
           </folding>
         </state>
       </provider>

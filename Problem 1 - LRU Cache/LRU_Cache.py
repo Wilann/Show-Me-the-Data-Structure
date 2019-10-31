@@ -9,6 +9,7 @@ class LinkedList:
         self.head = None  # least recently used pointer - "back" of DoublyLinkedList
         self.tail = None  # most recently used pointer - "front" of DoublyLinkedList
 
+    # TODO 1
     def move_to_front(self, value):
         """
         Moves DoubleNode with particular value, value, to the front/tail of DoublyLinkedList
@@ -27,7 +28,6 @@ class LinkedList:
 
                 if node.value == value:
                     break
-                node = node.next
 
         # Add designated node to LinkedList
         self.tail.next = node
@@ -126,7 +126,7 @@ class LRU_Cache(object):
             # Get entry from cache
             entry = self.cache[key]
 
-            # TODO: Move item to front/tail of recently_used
+            # TODO 1: Move item to front/tail of recently_used
             self.recently_used.move_to_front(key)
             print("self.recently_used:", self.recently_used)
 
@@ -155,7 +155,7 @@ class LRU_Cache(object):
             # Add item to front/tail of recently_used
             self.recently_used.enqueue(key)
 
-            # TODO: Check and handle capacity - if full, delete oldest entry (back/head of recently_used)
+            # TODO 2: Check and handle capacity - if full, delete oldest entry (back/head of recently_used)
             if self.recently_used.num_elements == self.capacity:
                 oldest_entry = self.recently_used.dequeue()
                 self.recently_used.enqueue(oldest_entry)
@@ -167,7 +167,7 @@ class LRU_Cache(object):
         # Key is in the cache
         self.cache[key] = value
 
-        # TODO: Move item to front/tail of recently_used
+        # TODO 1: Move item to front/tail of recently_used
         self.recently_used.move_to_front(key)
         print("self.recently_used:", self.recently_used)
 
