@@ -1,3 +1,6 @@
+# TODO: Make sure all operations are O(1)
+
+
 class Node:
     def __init__(self, value):
         self.value = value
