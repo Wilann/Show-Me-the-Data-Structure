@@ -169,7 +169,7 @@ class LRU_Cache(object):
                 # Remove oldest entry frm recently_used
                 oldest_entry = self.recently_used.dequeue()
 
-                # TODO: Remove equivalent key from cache
+                # Remove equivalent key from cache
                 del self.cache[oldest_entry]
 
             # Add entry to cache
