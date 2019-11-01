@@ -56,10 +56,13 @@ class Queue(LinkedList):
         """
         new_node = Node(value)
 
+        # If the Queue has no Nodes
         if self.head is None:
+            # Set head and tail to new_node
             self.head = new_node
             self.tail = self.head
 
+        # The Queue already has at least one Node
         else:
             # Add new_node to the end of the queue
             self.tail.next = new_node
@@ -73,6 +76,7 @@ class Queue(LinkedList):
 
         :return: None
         """
+        # If the Queue is empty
         if self.is_empty():
             return None
 
@@ -91,6 +95,7 @@ class Queue(LinkedList):
     def increment_num_elements(self):
         """
         Increment num_elements
+
         :return: None
         """
         self.num_elements += 1
@@ -109,7 +114,6 @@ class Queue(LinkedList):
             s += str(node.value) + ' '
             node = node.next
 
-        s += str(self.tail.value)
         return s
 
 
