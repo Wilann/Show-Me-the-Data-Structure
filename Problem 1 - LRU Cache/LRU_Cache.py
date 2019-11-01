@@ -164,6 +164,14 @@ class LRU_Cache(object):
 
         # If key isn't in the cache
         if key not in self.cache:
+            # Check and handle capacity - if full, delete oldest entry (back/head of recently_used)
+            if self.recently_used.num_elements == self.capacity:
+                # Remove oldest entry frm recently_used
+                oldest_entry = self.recently_used.dequeue()
+
+                # TODO: Remove equivalent key from cache
+                del self.cache[oldest_entry]
+
             # Add entry to cache
             self.cache[key] = value
 
@@ -172,11 +180,6 @@ class LRU_Cache(object):
 
             # Increment number of elements
             self.recently_used.increment_num_elements()
-
-            # Check and handle capacity - if full, delete oldest entry (back/head of recently_used)
-            if self.recently_used.num_elements == self.capacity:
-                # Remove oldest entry
-                self.recently_used.dequeue()
 
             print("self.recently_used:", self.recently_used)
 
