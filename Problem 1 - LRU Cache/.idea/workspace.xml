@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+            <state relative-caret-position="589">
+              <caret line="220" column="32" lean-forward="true" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
               <folding>
                 <element signature="e#51#94#0" />
                 <element signature="e#147#308#0" />
@@ -66,7 +66,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="699" />
     <option name="y" value="23" />
-    <option name="width" value="1861" />
+    <option name="width" value="1163" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -165,7 +165,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="699" y="23" width="1861" height="1417" extended-state="0" />
+    <frame x="699" y="23" width="1163" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.093517534" />
@@ -184,7 +184,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" sideWeight="0.49333334" side_tool="true" visible="true" weight="0.29353234" />
+      <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" sideWeight="0.49333334" side_tool="true" weight="0.29353234" />
       <window_info active="true" anchor="right" x="683" y="1440" width="1194" height="834" id="Run" order="4" sideWeight="0.50666666" type="WINDOWED" visible="true" weight="0.29242676" />
     </layout>
   </component>
@@ -202,8 +202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+        <state relative-caret-position="589">
+          <caret line="220" column="32" lean-forward="true" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
           <folding>
             <element signature="e#51#94#0" />
             <element signature="e#147#308#0" />
