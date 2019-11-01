@@ -1,6 +1,4 @@
-# TODO: Make sure all operations are O(1)
-
-
+# TODO 1: Add previous pointer
 class Node:
     def __init__(self, value):
         self.value = value
@@ -12,6 +10,7 @@ class LinkedList:
         self.head = None  # least recently used pointer - "back" of DoublyLinkedList
         self.tail = None  # most recently used pointer - "front" of DoublyLinkedList
 
+    # TODO 5: Change implementation to use previous pointer, access Node as cache[key], return None
     def remove(self, value):
         """
         Removes and returns Node with value
@@ -147,9 +146,14 @@ class LRU_Cache(object):
 
         # If key is in cache (Cache Hit)
         if key in self.cache:
+            # TODO 3: entry = self.cache[key].value
             # Get entry from cache
             entry = self.cache[key]
 
+            # TODO 4: Pass in Node to recently_used.remove(node)
+            # TODO 4: node = self.cache[key]
+            # TODO 4: self.recently_used.remove(node)
+            # TODO 4: self.recently_used.enqueue(node)
             self.recently_used.enqueue(self.recently_used.remove(key))
             print("self.recently_used:", self.recently_used)
 
@@ -180,6 +184,8 @@ class LRU_Cache(object):
                 # Remove equivalent key from cache
                 del self.cache[oldest_entry]
 
+            # TODO 2: When creating Node instances, map key => Node(value)
+
             # Add entry to cache
             self.cache[key] = value
 
@@ -193,6 +199,10 @@ class LRU_Cache(object):
 
         # Key is in the cache
         else:
+            # TODO 4: Pass in Node to recently_used.remove(node)
+            # TODO 4: node = self.cache[key]
+            # TODO 4: self.recently_used.remove(node)
+            # TODO 4: self.recently_used.enqueue(node)
             self.recently_used.enqueue(self.recently_used.remove(key))
             print("self.recently_used:", self.recently_used)
 

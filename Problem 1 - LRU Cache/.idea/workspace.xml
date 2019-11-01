@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="942ebcdc-433d-42dc-8c68-efb41760f2f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU Cache Explanation.pages" beforeDir="false" afterPath="$PROJECT_DIR$/LRU Cache Explanation.pages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LRU_Cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/LRU_Cache.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,26 +20,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="220" column="32" lean-forward="true" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
+            <state relative-caret-position="271">
+              <caret line="150" column="35" lean-forward="true" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
               <folding>
-                <element signature="e#51#94#0" />
-                <element signature="e#147#308#0" />
-                <element signature="e#360#482#1" />
-                <element signature="e#1090#1138#0" />
-                <element signature="e#1178#1298#1" />
-                <element signature="e#1703#1947#0" />
-                <element signature="e#1703#1775#1" />
-                <element signature="e#2016#2071#0" />
-                <element signature="e#1977#2001#0" />
-                <element signature="e#2035#2064#0" />
-                <element signature="e#2098#2275#0" />
-                <element signature="e#2307#2517#1" />
-                <element signature="e#2563#2814#0" />
-                <element signature="e#2563#2653#1" />
-                <element signature="e#2848#3016#1" />
-                <element signature="e#3484#3774#1" />
-                <element signature="e#4646#4762#0" />
+                <element signature="e#191#352#0" />
+                <element signature="e#391#516#1" />
+                <element signature="e#1212#1332#1" />
+                <element signature="e#1795#1867#1" />
+                <element signature="e#2256#2356#0" />
+                <element signature="e#2256#2325#1" />
+                <element signature="e#2386#2410#0" />
+                <element signature="e#2444#2473#0" />
+                <element signature="e#2507#2657#0" />
+                <element signature="e#2689#2899#1" />
+                <element signature="e#2945#3035#1" />
+                <element signature="e#3230#3398#1" />
+                <element signature="e#3829#4119#1" />
+                <element signature="e#5110#5226#0" />
               </folding>
             </state>
           </provider>
@@ -63,11 +61,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="699" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1163" />
-    <option name="height" value="1417" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,12 +162,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="699" y="23" width="1163" height="1417" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.093517534" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.093429774" />
       <window_info id="Structure" order="1" sideWeight="0.50110376" side_tool="true" weight="0.09698276" />
       <window_info id="Favorites" order="2" sideWeight="0.50110376" side_tool="true" weight="0.24980268" />
+      <window_info active="true" x="1025" y="23" width="655" height="316" id="TODO" order="3" side_tool="true" type="FLOATING" visible="true" weight="0.15916666" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39892802" />
@@ -180,12 +178,11 @@
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32938564" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" x="1978" y="1051" width="582" height="221" id="TODO" order="9" side_tool="true" type="FLOATING" weight="0.15916666" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" sideWeight="0.49333334" side_tool="true" weight="0.29353234" />
-      <window_info active="true" anchor="right" x="683" y="1440" width="1194" height="834" id="Run" order="4" sideWeight="0.50666666" type="WINDOWED" visible="true" weight="0.29242676" />
+      <window_info anchor="right" x="25" y="30" width="1630" height="989" id="Run" order="4" sideWeight="0.50666666" visible="true" weight="0.26984128" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,26 +199,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="220" column="32" lean-forward="true" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
+        <state relative-caret-position="271">
+          <caret line="150" column="35" lean-forward="true" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
           <folding>
-            <element signature="e#51#94#0" />
-            <element signature="e#147#308#0" />
-            <element signature="e#360#482#1" />
-            <element signature="e#1090#1138#0" />
-            <element signature="e#1178#1298#1" />
-            <element signature="e#1703#1947#0" />
-            <element signature="e#1703#1775#1" />
-            <element signature="e#2016#2071#0" />
-            <element signature="e#1977#2001#0" />
-            <element signature="e#2035#2064#0" />
-            <element signature="e#2098#2275#0" />
-            <element signature="e#2307#2517#1" />
-            <element signature="e#2563#2814#0" />
-            <element signature="e#2563#2653#1" />
-            <element signature="e#2848#3016#1" />
-            <element signature="e#3484#3774#1" />
-            <element signature="e#4646#4762#0" />
+            <element signature="e#191#352#0" />
+            <element signature="e#391#516#1" />
+            <element signature="e#1212#1332#1" />
+            <element signature="e#1795#1867#1" />
+            <element signature="e#2256#2356#0" />
+            <element signature="e#2256#2325#1" />
+            <element signature="e#2386#2410#0" />
+            <element signature="e#2444#2473#0" />
+            <element signature="e#2507#2657#0" />
+            <element signature="e#2689#2899#1" />
+            <element signature="e#2945#3035#1" />
+            <element signature="e#3230#3398#1" />
+            <element signature="e#3829#4119#1" />
+            <element signature="e#5110#5226#0" />
           </folding>
         </state>
       </provider>
