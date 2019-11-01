@@ -9,34 +9,34 @@ class LinkedList:
         self.head = None  # least recently used pointer - "back" of DoublyLinkedList
         self.tail = None  # most recently used pointer - "front" of DoublyLinkedList
 
-    # TODO 1
-    def move_to_front(self, value):
+    def remove(self, value):
         """
-        Moves DoubleNode with particular value, value, to the front/tail of DoublyLinkedList
+        Removes and returns Node with value
 
-        :param value: Value to be moved
-        :return: None
+        :param value: Value to be removed
+        :return: value
         """
+
+        # If the head is the node we need to remove
+        if self.head.value == value:
+            # Advance head
+            self.head = self.head.next
+
+            return self.head.value
+
+        # Find node to remove
         node = self.head
+        while node.next is not None:
+            if node.next.value == value:
+                break
 
-        if node.value != value:
+            # Advance node
+            node = node.next
 
-            # Search for DoubleNode with value we want to move
-            while node.next:
-                # Adjust next pointer
-                node = node.next
+        # Adjust surrounding pointers
+        node.next = node.next.next
 
-                if node.value == value:
-                    break
-
-        # Add designated node to LinkedList
-        self.tail.next = node
-
-        # Move head forward
-        self.head = self.head.next
-
-        # Move tail forward
-        self.tail = self.tail.next
+        return node.next.value
 
 
 class Queue(LinkedList):
@@ -56,12 +56,13 @@ class Queue(LinkedList):
         if self.head is None:
             self.head = new_node
             self.tail = self.head
-            return
 
-        self.tail.next = new_node  # add data to the next attribute of the tail (i.e. the end of the queue)
-        self.tail = self.tail.next  # shift the tail (i.e., the back of the queue)
+        else:
+            # Add new_node to the end of the queue
+            self.tail.next = new_node
 
-        self.num_elements += 1
+            # Advance tail
+            self.tail = self.tail.next
 
     def dequeue(self):
         """
@@ -72,10 +73,24 @@ class Queue(LinkedList):
         if self.is_empty():
             return None
 
+        # Save value in a variable
         value = self.head.value
+
+        # Advance head
         self.head = self.head.next
+
+        # Decrement num_elements
         self.num_elements -= 1
+
+        # Return least recently used value
         return value
+
+    def increment_num_elements(self):
+        """
+        Increment num_elements
+        :return: None
+        """
+        self.num_elements += 1
 
     def size(self):
         return self.num_elements
@@ -87,7 +102,7 @@ class Queue(LinkedList):
         s = ''
         node = self.head
 
-        while node.next:
+        while node is not None:
             s += str(node.value) + ' '
             node = node.next
 
@@ -121,19 +136,19 @@ class LRU_Cache(object):
         :return: item
         """
 
-        # Cache Hit - entry is found
+        # If key is in cache (Cache Hit)
         if key in self.cache:
             # Get entry from cache
             entry = self.cache[key]
 
-            # TODO 1: Move item to front/tail of recently_used
-            self.recently_used.move_to_front(key)
+            # TODO: Move item to front/tail of recently_used (remove node, then enqueue)
+            self.recently_used.enqueue(self.recently_used.remove(key))
             print("self.recently_used:", self.recently_used)
 
             # Return entry
             return entry
 
-        # Catch Miss - entry isn't found
+        # Key isn't in cache (Catch Miss)
         return -1
 
     def set(self, key, value):
@@ -155,21 +170,21 @@ class LRU_Cache(object):
             # Add item to front/tail of recently_used
             self.recently_used.enqueue(key)
 
-            # TODO 2: Check and handle capacity - if full, delete oldest entry (back/head of recently_used)
+            # Increment number of elements
+            self.recently_used.increment_num_elements()
+
+            # Check and handle capacity - if full, delete oldest entry (back/head of recently_used)
             if self.recently_used.num_elements == self.capacity:
-                oldest_entry = self.recently_used.dequeue()
-                self.recently_used.enqueue(oldest_entry)
+                # Remove oldest entry
+                self.recently_used.dequeue()
 
             print("self.recently_used:", self.recently_used)
 
-            return
-
         # Key is in the cache
-        self.cache[key] = value
-
-        # TODO 1: Move item to front/tail of recently_used
-        self.recently_used.move_to_front(key)
-        print("self.recently_used:", self.recently_used)
+        else:
+            # TODO: Move item to front/tail of recently_used (remove node, then enqueue)
+            self.recently_used.enqueue(self.recently_used.remove(key))
+            print("self.recently_used:", self.recently_used)
 
     def __repr__(self):
         s = ''
@@ -179,6 +194,7 @@ class LRU_Cache(object):
 
 
 our_cache = LRU_Cache(5)
+print("our_cache:", our_cache, '\n')
 
 print("--our_cache.set(1, 1)--")
 our_cache.set(1, 1)

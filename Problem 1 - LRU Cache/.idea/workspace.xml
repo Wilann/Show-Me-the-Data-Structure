@@ -19,16 +19,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="361">
+              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding>
-                <element signature="e#16#94#0" />
+                <element signature="e#51#94#0" />
                 <element signature="e#147#308#0" />
-                <element signature="e#1110#1158#0" />
-                <element signature="e#1997#2021#0" />
-                <element signature="e#2055#2084#0" />
-                <element signature="e#2118#2295#0" />
-                <element signature="e#4660#4776#0" />
+                <element signature="e#360#482#1" />
+                <element signature="e#1090#1138#0" />
+                <element signature="e#1178#1298#1" />
+                <element signature="e#1703#1775#1" />
+                <element signature="e#2016#2071#0" />
+                <element signature="e#2016#2058#1" />
+                <element signature="e#1977#2001#0" />
+                <element signature="e#2035#2064#0" />
+                <element signature="e#2098#2275#0" />
+                <element signature="e#2307#2517#1" />
+                <element signature="e#2563#2814#0" />
+                <element signature="e#2563#2653#1" />
+                <element signature="e#2848#3016#1" />
+                <element signature="e#3484#3774#1" />
+                <element signature="e#4646#4762#0" />
               </folding>
             </state>
           </provider>
@@ -54,17 +64,30 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="652" />
+    <option name="x" value="699" />
     <option name="y" value="23" />
-    <option name="width" value="1908" />
-    <option name="height" value="1311" />
+    <option name="width" value="1861" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Problem 1 - LRU Cache" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem 1 - LRU Cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -142,11 +165,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="652" y="23" width="1908" height="1311" extended-state="0" />
+    <frame x="699" y="23" width="1861" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.09395185" />
-      <window_info id="Structure" order="1" sideWeight="0.50110376" side_tool="true" weight="0.24980268" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.093517534" />
+      <window_info id="Structure" order="1" sideWeight="0.50110376" side_tool="true" weight="0.09698276" />
       <window_info id="Favorites" order="2" sideWeight="0.50110376" side_tool="true" weight="0.24980268" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -156,13 +179,13 @@
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32938564" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.33012584" />
-      <window_info active="true" anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="9" sideWeight="0.5075" side_tool="true" type="WINDOWED" visible="true" weight="0.26583335" />
-      <window_info anchor="bottom" id="TODO" order="10" side_tool="true" visible="true" weight="0.15916666" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" x="1978" y="1051" width="582" height="221" id="TODO" order="9" side_tool="true" type="FLOATING" weight="0.15916666" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="1976" y="119" width="518" height="405" id="Documentation" order="3" sideWeight="0.4925" side_tool="true" visible="true" weight="0.27801725" />
+      <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" sideWeight="0.49333334" side_tool="true" visible="true" weight="0.29242676" />
+      <window_info active="true" anchor="right" x="683" y="1440" width="1194" height="834" id="Run" order="4" sideWeight="0.50666666" type="WINDOWED" visible="true" weight="0.29242676" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,16 +202,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="361">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
-            <element signature="e#16#94#0" />
+            <element signature="e#51#94#0" />
             <element signature="e#147#308#0" />
-            <element signature="e#1110#1158#0" />
-            <element signature="e#1997#2021#0" />
-            <element signature="e#2055#2084#0" />
-            <element signature="e#2118#2295#0" />
-            <element signature="e#4660#4776#0" />
+            <element signature="e#360#482#1" />
+            <element signature="e#1090#1138#0" />
+            <element signature="e#1178#1298#1" />
+            <element signature="e#1703#1775#1" />
+            <element signature="e#2016#2071#0" />
+            <element signature="e#2016#2058#1" />
+            <element signature="e#1977#2001#0" />
+            <element signature="e#2035#2064#0" />
+            <element signature="e#2098#2275#0" />
+            <element signature="e#2307#2517#1" />
+            <element signature="e#2563#2814#0" />
+            <element signature="e#2563#2653#1" />
+            <element signature="e#2848#3016#1" />
+            <element signature="e#3484#3774#1" />
+            <element signature="e#4646#4762#0" />
           </folding>
         </state>
       </provider>
