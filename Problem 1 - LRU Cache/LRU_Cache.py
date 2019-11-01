@@ -22,10 +22,12 @@ class LinkedList:
 
         # If the head is the node we need to remove
         if self.head.value == value:
+            temp_value = self.head.value
+
             # Advance head
             self.head = self.head.next
 
-            return self.head.value
+            return temp_value
 
         # Find node to remove
         node = self.head
@@ -148,7 +150,6 @@ class LRU_Cache(object):
             # Get entry from cache
             entry = self.cache[key]
 
-            # TODO: Move item to front/tail of recently_used (remove node, then enqueue)
             self.recently_used.enqueue(self.recently_used.remove(key))
             print("self.recently_used:", self.recently_used)
 
@@ -192,7 +193,6 @@ class LRU_Cache(object):
 
         # Key is in the cache
         else:
-            # TODO: Move item to front/tail of recently_used (remove node, then enqueue)
             self.recently_used.enqueue(self.recently_used.remove(key))
             print("self.recently_used:", self.recently_used)
 
