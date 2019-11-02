@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="942ebcdc-433d-42dc-8c68-efb41760f2f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LRU Cache Explanation.pages" beforeDir="false" afterPath="$PROJECT_DIR$/LRU Cache Explanation.pages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LRU_Cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/LRU_Cache.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +18,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="143" column="24" lean-forward="true" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+            <state relative-caret-position="1044">
+              <caret line="196" column="26" lean-forward="true" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
               <folding>
                 <element signature="e#47#154#0" />
                 <element signature="e#178#339#0" />
+                <element signature="e#596#1058#0" />
                 <element signature="e#597#1270#0" />
                 <element signature="e#1318#1366#0" />
+                <element signature="e#1406#1956#0" />
+                <element signature="e#1989#2402#0" />
                 <element signature="e#2450#2550#0" />
                 <element signature="e#2580#2604#0" />
                 <element signature="e#2638#2667#0" />
+                <element signature="e#2701#2851#0" />
+                <element signature="e#2883#3093#1" />
                 <element signature="e#3139#3229#1" />
                 <element signature="e#3424#3592#1" />
                 <element signature="e#4292#4582#1" />
@@ -193,18 +196,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LRU_Cache 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="143" column="24" lean-forward="true" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+        <state relative-caret-position="1044">
+          <caret line="196" column="26" lean-forward="true" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
           <folding>
             <element signature="e#47#154#0" />
             <element signature="e#178#339#0" />
+            <element signature="e#596#1058#0" />
             <element signature="e#597#1270#0" />
             <element signature="e#1318#1366#0" />
+            <element signature="e#1406#1956#0" />
+            <element signature="e#1989#2402#0" />
             <element signature="e#2450#2550#0" />
             <element signature="e#2580#2604#0" />
             <element signature="e#2638#2667#0" />
+            <element signature="e#2701#2851#0" />
+            <element signature="e#2883#3093#1" />
             <element signature="e#3139#3229#1" />
             <element signature="e#3424#3592#1" />
             <element signature="e#4292#4582#1" />
