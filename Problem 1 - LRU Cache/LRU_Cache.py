@@ -23,7 +23,7 @@ class LinkedList:
             next_node = self.head.next
 
             # Configure pointers
-            self.head.next.previous = None
+            next_node.previous = None
             self.head.next = None
 
             # Advance head

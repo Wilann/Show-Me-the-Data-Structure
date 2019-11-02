@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="942ebcdc-433d-42dc-8c68-efb41760f2f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LRU Cache Explanation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU Cache Explanation.pages" beforeDir="false" afterPath="$PROJECT_DIR$/LRU Cache Explanation.pages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LRU_Cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/LRU_Cache.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,26 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="196" column="26" lean-forward="true" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
-              <folding>
-                <element signature="e#47#154#0" />
-                <element signature="e#178#339#0" />
-                <element signature="e#596#1058#0" />
-                <element signature="e#597#1270#0" />
-                <element signature="e#1318#1366#0" />
-                <element signature="e#1406#1956#0" />
-                <element signature="e#1989#2402#0" />
-                <element signature="e#2450#2550#0" />
-                <element signature="e#2580#2604#0" />
-                <element signature="e#2638#2667#0" />
-                <element signature="e#2701#2851#0" />
-                <element signature="e#2883#3093#1" />
-                <element signature="e#3139#3229#1" />
-                <element signature="e#3424#3592#1" />
-                <element signature="e#4292#4582#1" />
-                <element signature="e#5866#5982#0" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -162,12 +147,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.093429774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49889624" visible="true" weight="0.17743222" />
       <window_info id="Structure" order="1" sideWeight="0.50110376" side_tool="true" weight="0.09698276" />
       <window_info id="Favorites" order="2" sideWeight="0.50110376" side_tool="true" weight="0.24980268" />
-      <window_info x="1025" y="23" width="655" height="316" id="TODO" order="3" sideWeight="0.49296817" side_tool="true" visible="true" weight="0.261563" />
+      <window_info x="1025" y="23" width="655" height="316" id="TODO" order="3" sideWeight="0.49296817" side_tool="true" weight="0.261563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39822355" />
@@ -181,7 +165,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" sideWeight="0.29607698" side_tool="true" weight="0.20175439" />
-      <window_info active="true" anchor="right" x="683" y="1440" width="1194" height="834" id="Run" order="4" sideWeight="0.70392305" type="WINDOWED" visible="true" weight="0.20175439" />
+      <window_info anchor="right" x="0" y="22" width="2560" height="1418" id="Run" maximized="true" order="4" sideWeight="0.70392305" weight="0.31738436" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,26 +189,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="196" column="26" lean-forward="true" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
-          <folding>
-            <element signature="e#47#154#0" />
-            <element signature="e#178#339#0" />
-            <element signature="e#596#1058#0" />
-            <element signature="e#597#1270#0" />
-            <element signature="e#1318#1366#0" />
-            <element signature="e#1406#1956#0" />
-            <element signature="e#1989#2402#0" />
-            <element signature="e#2450#2550#0" />
-            <element signature="e#2580#2604#0" />
-            <element signature="e#2638#2667#0" />
-            <element signature="e#2701#2851#0" />
-            <element signature="e#2883#3093#1" />
-            <element signature="e#3139#3229#1" />
-            <element signature="e#3424#3592#1" />
-            <element signature="e#4292#4582#1" />
-            <element signature="e#5866#5982#0" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
