@@ -1,8 +1,9 @@
-# TODO 1: Add previous pointer
+# (done) TODO 1: Add previous pointer
 class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
+        self.previous = None
 
 
 class LinkedList:
@@ -10,8 +11,35 @@ class LinkedList:
         self.head = None  # least recently used pointer - "back" of DoublyLinkedList
         self.tail = None  # most recently used pointer - "front" of DoublyLinkedList
 
-    # TODO 5: Change implementation to use previous pointer, access Node as cache[key], return None
-    def remove(self, value):
+    # TODO 5:
+    #   Change implementation to use previous pointer and return None
+    #   previous = node.previous, next = node.next, previous.next = next, next.previous = previous
+    def remove(self, node):
+        """
+        Removes node
+
+        :param node: Node to be removed
+        :return: None
+        """
+        # If the head is the node we want to remove
+        if self.head.value == node.value:
+            self.head = self.head.next
+            self.head.previous = None
+
+        # If the tail is the node we want to remove
+        elif self.tail.value == node.value:
+            self.tail = self.tail.previous
+            self.tail.next = None
+
+        # General case
+        else:
+            previous = node.previous
+            next = node.next
+            previous.next = next
+            next.previous = previous
+
+
+    def remove_temp(self, value):
         """
         Removes and returns Node with value
 
@@ -48,29 +76,33 @@ class Queue(LinkedList):
         super().__init__()
         self.num_elements = 0
 
-    def enqueue(self, value):
+    # (done) TODO 6:
+    #   Change implementation to use previous pointer
+    def enqueue(self, node):
         """
         Appends a new value to front/tail
 
         :param value: Value to be added
         :return: None
         """
-        new_node = Node(value)
+        new_node = node
 
         # If the Queue has no Nodes
-        if self.head is None:
+        if self.head is None and self.tail is None:
             # Set head and tail to new_node
             self.head = new_node
             self.tail = self.head
 
         # The Queue already has at least one Node
         else:
-            # Add new_node to the end of the queue
+            # Add new_node to the end of the queue abd configure pointers
             self.tail.next = new_node
+            new_node.previous = self.tail
 
             # Advance tail
             self.tail = self.tail.next
 
+    # TODO 7: Change implementation to use previous pointer
     def dequeue(self):
         """
         Removes back/head element
@@ -131,8 +163,8 @@ class LRU_Cache(object):
 
         :param capacity: size of cache
         """
-        self.cache = dict()
-        self.recently_used = Queue()  # keeps track of which keys were the most/least recently used
+        self.cache = dict()  # Mapping of [key => Node(value)]
+        self.recently_used = Queue()  # Keeps track of which keys were the most/least recently used
         self.capacity = capacity
 
     def get(self, key):
@@ -146,15 +178,20 @@ class LRU_Cache(object):
 
         # If key is in cache (Cache Hit)
         if key in self.cache:
-            # TODO 3: entry = self.cache[key].value
+            # (done) TODO 3: entry = self.cache[key].value
             # Get entry from cache
-            entry = self.cache[key]
+            entry = self.cache[key].value
 
-            # TODO 4: Pass in Node to recently_used.remove(node)
-            # TODO 4: node = self.cache[key]
-            # TODO 4: self.recently_used.remove(node)
-            # TODO 4: self.recently_used.enqueue(node)
-            self.recently_used.enqueue(self.recently_used.remove(key))
+            # (done) TODO 4:
+            #   Pass in Node to recently_used.remove(node)
+            #   node = self.cache[key]
+            #   self.recently_used.remove(node)
+            #   self.recently_used.enqueue(node)
+            node = self.cache[key]
+            self.recently_used.remove(node)
+            self.recently_used.enqueue(node)
+
+            # self.recently_used.enqueue(self.recently_used.remove(key))
             print("self.recently_used:", self.recently_used)
 
             # Return entry
@@ -184,13 +221,14 @@ class LRU_Cache(object):
                 # Remove equivalent key from cache
                 del self.cache[oldest_entry]
 
-            # TODO 2: When creating Node instances, map key => Node(value)
+            # (done) TODO 2: When creating Node instances, map key => Node(value)
+            node = Node(value)
 
             # Add entry to cache
-            self.cache[key] = value
+            self.cache[key] = node
 
             # Add item to front/tail of recently_used
-            self.recently_used.enqueue(key)
+            self.recently_used.enqueue(node)
 
             # Increment number of elements
             self.recently_used.increment_num_elements()
@@ -199,17 +237,22 @@ class LRU_Cache(object):
 
         # Key is in the cache
         else:
-            # TODO 4: Pass in Node to recently_used.remove(node)
-            # TODO 4: node = self.cache[key]
-            # TODO 4: self.recently_used.remove(node)
-            # TODO 4: self.recently_used.enqueue(node)
-            self.recently_used.enqueue(self.recently_used.remove(key))
+            # (done) TODO 4:
+            #   Pass in Node to recently_used.remove(node)
+            #   node = self.cache[key]
+            #   self.recently_used.remove(node)
+            #   self.recently_used.enqueue(node)
+            node = self.cache[key]
+            self.recently_used.remove(node)
+            self.recently_used.enqueue(node)
+
+            # self.recently_used.enqueue(self.recently_used.remove(key))
             print("self.recently_used:", self.recently_used)
 
     def __repr__(self):
         s = ''
         for key in self.cache:
-            s += str(key) + ' ' + str(self.cache[key]) + ', '
+            s += str(key) + ' ' + 'Node(' + str(self.cache[key].value) + '), '
         return s
 
 
@@ -251,7 +294,6 @@ print("our_cache:", our_cache, '\n')
 print("--our_cache.set(6, 6)--")
 our_cache.set(6, 6)  # No return
 print("our_cache:", our_cache, '\n')
-
 
 print("--our_cache.get(3)--")
 print("our_cache.get(3):", our_cache.get(3))

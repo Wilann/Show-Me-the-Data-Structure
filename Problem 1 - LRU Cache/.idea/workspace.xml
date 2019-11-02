@@ -20,23 +20,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="150" column="35" lean-forward="true" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
+            <state relative-caret-position="546">
+              <caret line="143" column="24" lean-forward="true" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
               <folding>
-                <element signature="e#191#352#0" />
-                <element signature="e#391#516#1" />
-                <element signature="e#1212#1332#1" />
-                <element signature="e#1795#1867#1" />
-                <element signature="e#2256#2356#0" />
-                <element signature="e#2256#2325#1" />
-                <element signature="e#2386#2410#0" />
-                <element signature="e#2444#2473#0" />
-                <element signature="e#2507#2657#0" />
-                <element signature="e#2689#2899#1" />
-                <element signature="e#2945#3035#1" />
-                <element signature="e#3230#3398#1" />
-                <element signature="e#3829#4119#1" />
-                <element signature="e#5110#5226#0" />
+                <element signature="e#47#154#0" />
+                <element signature="e#178#339#0" />
+                <element signature="e#597#1270#0" />
+                <element signature="e#1318#1366#0" />
+                <element signature="e#2450#2550#0" />
+                <element signature="e#2580#2604#0" />
+                <element signature="e#2638#2667#0" />
+                <element signature="e#3139#3229#1" />
+                <element signature="e#3424#3592#1" />
+                <element signature="e#4292#4582#1" />
+                <element signature="e#5866#5982#0" />
               </folding>
             </state>
           </provider>
@@ -62,9 +59,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1163" />
-    <option name="height" value="936" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,27 +158,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.093429774" />
       <window_info id="Structure" order="1" sideWeight="0.50110376" side_tool="true" weight="0.09698276" />
       <window_info id="Favorites" order="2" sideWeight="0.50110376" side_tool="true" weight="0.24980268" />
-      <window_info active="true" x="1025" y="23" width="655" height="316" id="TODO" order="3" side_tool="true" type="FLOATING" visible="true" weight="0.15916666" />
+      <window_info x="1025" y="23" width="655" height="316" id="TODO" order="3" sideWeight="0.49296817" side_tool="true" visible="true" weight="0.261563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39892802" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39822355" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32938564" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32938564" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" sideWeight="0.49333334" side_tool="true" weight="0.29353234" />
-      <window_info anchor="right" x="25" y="30" width="1630" height="989" id="Run" order="4" sideWeight="0.50666666" visible="true" weight="0.26984128" />
+      <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" sideWeight="0.29607698" side_tool="true" weight="0.20175439" />
+      <window_info active="true" anchor="right" x="683" y="1440" width="1194" height="834" id="Run" order="4" sideWeight="0.70392305" type="WINDOWED" visible="true" weight="0.20175439" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,23 +195,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="150" column="35" lean-forward="true" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
+        <state relative-caret-position="546">
+          <caret line="143" column="24" lean-forward="true" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
           <folding>
-            <element signature="e#191#352#0" />
-            <element signature="e#391#516#1" />
-            <element signature="e#1212#1332#1" />
-            <element signature="e#1795#1867#1" />
-            <element signature="e#2256#2356#0" />
-            <element signature="e#2256#2325#1" />
-            <element signature="e#2386#2410#0" />
-            <element signature="e#2444#2473#0" />
-            <element signature="e#2507#2657#0" />
-            <element signature="e#2689#2899#1" />
-            <element signature="e#2945#3035#1" />
-            <element signature="e#3230#3398#1" />
-            <element signature="e#3829#4119#1" />
-            <element signature="e#5110#5226#0" />
+            <element signature="e#47#154#0" />
+            <element signature="e#178#339#0" />
+            <element signature="e#597#1270#0" />
+            <element signature="e#1318#1366#0" />
+            <element signature="e#2450#2550#0" />
+            <element signature="e#2580#2604#0" />
+            <element signature="e#2638#2667#0" />
+            <element signature="e#3139#3229#1" />
+            <element signature="e#3424#3592#1" />
+            <element signature="e#4292#4582#1" />
+            <element signature="e#5866#5982#0" />
           </folding>
         </state>
       </provider>
