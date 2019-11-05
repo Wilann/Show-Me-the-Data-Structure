@@ -45,3 +45,4 @@ def find_files(suffix, path):
 
 
 find_files(".py", ".")
+find_files(".pdf", ".")
