@@ -45,7 +45,10 @@ def find_files(suffix, path):
         # If file is a subdirectory (not a file)
         if os.path.isdir(file):
             # Recursion
-            find_files(suffix, file)
+            new_paths = find_files(suffix, os.path.join(path, file))
+
+            # Append new_paths to paths
+            paths.extend(new_paths)
 
     return paths
 
