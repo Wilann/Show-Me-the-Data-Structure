@@ -2,7 +2,8 @@
 
 import os
 
-# os.path.isdir(path)
+# Checks if "." is an existing directory
+print(os.path.isdir("."))
 
 # Let us print the files in the directory in which you are running this script
 print(os.listdir("."))

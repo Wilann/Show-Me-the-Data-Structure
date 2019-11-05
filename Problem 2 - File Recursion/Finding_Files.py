@@ -1,3 +1,5 @@
+import os
+
 def find_files(suffix, path):
     """
     Find all files beneath path with file name suffix.
@@ -14,4 +16,32 @@ def find_files(suffix, path):
     Returns:
        a list of paths
     """
-    return None
+    paths = []
+
+    # Get files in current directory
+    files = os.listdir(".")
+
+    # Check for file names with suffix
+    files_with_suffix = []
+    for file in files:
+
+        # If file is a file (not a subdirectory)
+        if os.path.isfile(file):
+
+            # If file ends with suffix
+            if file.endswith(suffix):
+
+                # Append file to files_with_suffix
+                files_with_suffix.append(file)
+
+                # Note path
+                paths.append(os.path.split(file)[0] + os.path.split(file)[1])
+
+    print(paths)
+
+    # (Recursion) Go into subdirectories
+
+    return paths
+
+
+find_files(".py", ".")
