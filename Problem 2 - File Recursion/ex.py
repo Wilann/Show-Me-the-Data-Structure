@@ -2,6 +2,8 @@
 
 import os
 
+# os.path.isdir(path)
+
 # Let us print the files in the directory in which you are running this script
 print(os.listdir("."))
 
