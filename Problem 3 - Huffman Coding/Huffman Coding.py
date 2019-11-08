@@ -2,6 +2,24 @@ import sys
 
 
 def huffman_encoding(data):
+    """
+
+    :param data: String
+    :return:
+    """
+
+    # Determine relative frequencies of characters
+
+    # Build and sort a list of tuples from lowest to highest frequencies
+
+    # Build the Huffman Tree by assigning a binary code to each letter (shorter codes for more frequent letters)
+
+    # Trim Huffman Tree (remove the frequencies from the previously built tree)
+
+    # Encode the text into its compressed form
+
+    # Decode the text form its compressed form
+
     pass
 
 
