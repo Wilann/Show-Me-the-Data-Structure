@@ -107,17 +107,16 @@ def huffman_encoding(data):
     """
 
     # Convert data to lowercase
-    data = data.lower().replace(' ', '')
+    data = data.lower()
     print("data:", data)
 
     # Determine frequencies of each character and store in dictionary of (character --> frequency)
     frequencies = dict()
     for char in data:
-        if char != " ":
-            if char in frequencies:
-                frequencies[char] += 1
-            else:
-                frequencies[char] = 1
+        if char in frequencies:
+            frequencies[char] += 1
+        else:
+            frequencies[char] = 1
     print("frequencies:", frequencies)
 
     # Build Priority Queue by iterating through data
@@ -144,7 +143,7 @@ def huffman_encoding(data):
         priority_queue.put(parent_node)
 
     # Finally, the priority queue will have 1 node that represents the root of the tree
-    print("priority_queue:", priority_queue)
+    print("priority_queue after creating tree:", priority_queue)
 
     # Create (character --> binary code) dictionary
     # binary_codes = dict()

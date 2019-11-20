@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa33bf86-8b61-4895-8978-67dea036a18b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Huffman Coding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Huffman Coding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3 Mentor Questions.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_config.yml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Huffman Coding.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="295">
+              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
               <folding>
                 <element signature="e#4402#4520#0" />
                 <element signature="e#5888#5941#0" />
@@ -139,7 +136,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="683" y="1463" width="1194" height="735" id="Run" order="2" type="FLOATING" visible="true" />
+      <window_info active="true" anchor="bottom" x="683" y="1463" width="1194" height="731" id="Run" order="2" type="FLOATING" visible="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -164,8 +161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Huffman Coding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="295">
+          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
           <folding>
             <element signature="e#4402#4520#0" />
             <element signature="e#5888#5941#0" />
