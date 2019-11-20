@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Finding_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finding_Files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/Huffman Coding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/Huffman Coding.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +17,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Finding_Files.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+            <state relative-caret-position="652">
+              <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
               <folding>
-                <element signature="e#46#450#1" />
-                <element signature="e#46#2093#0" />
+                <element signature="e#1516#3706#0" />
               </folding>
             </state>
           </provider>
@@ -177,7 +175,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="2" sideWeight="0.4994062" type="WINDOWED" visible="true" weight="0.38833332" />
+      <window_info active="true" anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="2" sideWeight="0.4994062" type="WINDOWED" visible="true" weight="0.2575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,11 +204,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Finding_Files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        <state relative-caret-position="652">
+          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
           <folding>
-            <element signature="e#46#450#1" />
-            <element signature="e#46#2093#0" />
+            <element signature="e#1516#3706#0" />
           </folding>
         </state>
       </provider>
