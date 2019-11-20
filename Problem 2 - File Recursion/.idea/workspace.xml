@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ab53a8-1b62-46d4-83b2-3434cd1f7feb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Finding_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finding_Files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +15,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Finding_Files.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+            <state relative-caret-position="475">
+              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
+                <element signature="e#46#450#1" />
                 <element signature="e#1516#3706#0" />
               </folding>
             </state>
@@ -204,9 +203,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Finding_Files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+        <state relative-caret-position="475">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding>
+            <element signature="e#46#450#1" />
             <element signature="e#1516#3706#0" />
           </folding>
         </state>

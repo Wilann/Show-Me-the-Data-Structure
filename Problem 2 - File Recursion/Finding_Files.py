@@ -26,6 +26,7 @@ def find_files(suffix, path):
     # For all files in the current directory
     for file in os.listdir(path):
         print("file:", file)
+        file_absolute_path = os.path.abspath(file)
 
         # If file is a file (not a subdirectory)
         if os.path.isfile(file):
@@ -36,22 +37,19 @@ def find_files(suffix, path):
                 files.append(file)
 
                 # Save path
-                paths.append(os.path.abspath(file))
+                paths.append(file_absolute_path)
 
         # If file is a subdirectory (not a file)
-        if os.path.isdir(file):
+        if os.path.isdir(file_absolute_path):
 
             # TODO: Recursion only going into surface folders
             # Recursion - Go into the subdirectory
-            new_files, new_paths = find_files(suffix, os.path.join(path, file))
+            new_files, new_paths = find_files(suffix, file_absolute_path)
 
             # Append new_paths to paths
             if not file:
                 files.append(new_files)
                 paths.append(new_paths)
-
-        # print("-- files:", files)
-        # print("-- paths:", paths)
 
     return files, paths
 
