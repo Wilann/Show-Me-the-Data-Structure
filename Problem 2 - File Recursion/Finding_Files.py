@@ -25,8 +25,9 @@ def find_files(suffix, path):
 
     # For all files in the current directory
     for file in os.listdir(path):
-        print("file:", file)
         file_absolute_path = os.path.abspath(file)
+
+        print("file:", file)
 
         # If file is a file (not a subdirectory)
         if os.path.isfile(file):
@@ -47,9 +48,8 @@ def find_files(suffix, path):
             new_files, new_paths = find_files(suffix, file_absolute_path)
 
             # Append new_paths to paths
-            if not file:
-                files.append(new_files)
-                paths.append(new_paths)
+            files.extend(new_files)
+            paths.extend(new_paths)
 
     return files, paths
 
