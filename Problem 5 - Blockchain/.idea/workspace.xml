@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11b9fc0a-2a55-434c-9c9c-4b6636378af4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="908415e5-bb34-43fd-94d7-a9034b8087e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Block.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 4 - Active Directory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 4 - Active Directory/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Group.py">
+        <entry file="file://$PROJECT_DIR$/Block.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="860">
+              <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -36,7 +38,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Group.py" />
+        <option value="$PROJECT_DIR$/Block.py" />
       </list>
     </option>
   </component>
@@ -46,24 +48,26 @@
     <option name="width" value="1685" />
     <option name="height" value="1311" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Problem 4 - Active Directory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problem 4 - Active Directory" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem 5 - Blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem 5 - Blockchain" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -83,8 +87,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Group" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Problem 4 - Active Directory" />
+    <configuration name="Block" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Problem 5 - Blockchain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -95,7 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Group.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Block.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Group" />
+        <item itemvalue="Python.Block" />
       </list>
     </recent_temporary>
   </component>
@@ -115,11 +119,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="11b9fc0a-2a55-434c-9c9c-4b6636378af4" name="Default Changelist" comment="" />
-      <created>1574336598944</created>
+      <changelist id="908415e5-bb34-43fd-94d7-a9034b8087e9" name="Default Changelist" comment="" />
+      <created>1574337709791</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574336598944</updated>
+      <updated>1574337709791</updated>
     </task>
     <servers />
   </component>
@@ -128,7 +132,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12236287" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14390692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -136,22 +140,22 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20833333" />
+      <window_info active="true" anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="2" type="WINDOWED" visible="true" weight="0.1825" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" x="0" y="0" width="371" height="1111" id="Documentation" side_tool="true" visible="true" weight="0.22473975" />
+      <window_info anchor="right" x="0" y="0" width="371" height="1111" id="Documentation" side_tool="true" visible="true" weight="0.2375995" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Group.py">
+    <entry file="file://$PROJECT_DIR$/Block.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="860">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
         </state>
       </provider>
     </entry>
