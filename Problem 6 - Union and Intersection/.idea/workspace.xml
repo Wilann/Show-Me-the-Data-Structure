@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="908415e5-bb34-43fd-94d7-a9034b8087e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db643003-4b2f-492d-8421-dfbc3cba59db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Problem 6 - Union and Intersection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 5 - Blockchain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 5 - Blockchain/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,12 +16,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Block.py">
+        <entry file="file://$PROJECT_DIR$/LinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="652">
+              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+              <folding>
+                <element signature="e#128#150#0" />
+                <element signature="e#252#438#0" />
+                <element signature="e#1352#2400#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,7 +46,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Block.py" />
+        <option value="$PROJECT_DIR$/LinkedList.py" />
       </list>
     </option>
   </component>
@@ -46,31 +56,30 @@
     <option name="width" value="1685" />
     <option name="height" value="1311" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Problem 5 - Blockchain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problem 5 - Blockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem 6 - Union and Intersection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem 6 - Union and Intersection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,8 +94,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Block" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Problem 5 - Blockchain" />
+    <configuration name="LinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Problem 6 - Union and Intersection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -97,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Block.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkedList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Block" />
+        <item itemvalue="Python.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -117,11 +126,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="908415e5-bb34-43fd-94d7-a9034b8087e9" name="Default Changelist" comment="" />
-      <created>1574337709791</created>
+      <changelist id="db643003-4b2f-492d-8421-dfbc3cba59db" name="Default Changelist" comment="" />
+      <created>1574341415258</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574337709791</updated>
+      <updated>1574341415258</updated>
     </task>
     <servers />
   </component>
@@ -129,31 +138,36 @@
     <frame x="875" y="24" width="1685" height="1311" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14390692" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15852924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="2" type="WINDOWED" weight="0.1825" />
+      <window_info anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="2" type="WINDOWED" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" x="0" y="0" width="371" height="1111" id="Documentation" side_tool="true" visible="true" weight="0.28107777" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="371" height="1111" id="Documentation" order="3" side_tool="true" visible="true" weight="0.2375995" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Block.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="652">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="e#128#150#0" />
+            <element signature="e#252#438#0" />
+            <element signature="e#1352#2400#0" />
+          </folding>
         </state>
       </provider>
     </entry>
