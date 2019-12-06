@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="942ebcdc-433d-42dc-8c68-efb41760f2f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LRU Cache Explanation.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LRU Cache Explanation.pages" beforeDir="false" afterPath="$PROJECT_DIR$/LRU Cache Explanation.pages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LRU_Cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/LRU_Cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU Cache Description.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU Cache Explanation.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU Cache Explanation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/File Recursion Description.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/File Recursion Description.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/Finding_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/Finding_Files.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
+        <entry file="file://$PROJECT_DIR$/lru_cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="295">
+              <caret line="261" column="5" selection-start-line="261" selection-start-column="5" selection-end-line="261" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -46,9 +49,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1566" />
+    <option name="y" value="23" />
+    <option name="width" value="994" />
+    <option name="height" value="1312" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -146,9 +151,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="1566" y="23" width="994" height="1312" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49889624" visible="true" weight="0.17743222" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.3046133" />
       <window_info id="Structure" order="1" sideWeight="0.50110376" side_tool="true" weight="0.09698276" />
       <window_info id="Favorites" order="2" sideWeight="0.50110376" side_tool="true" weight="0.24980268" />
       <window_info x="1025" y="23" width="655" height="316" id="TODO" order="3" sideWeight="0.49296817" side_tool="true" weight="0.261563" />
@@ -165,7 +171,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" sideWeight="0.29607698" side_tool="true" weight="0.20175439" />
-      <window_info anchor="right" x="0" y="22" width="2560" height="1418" id="Run" maximized="true" order="4" sideWeight="0.70392305" weight="0.31738436" />
+      <window_info anchor="right" x="0" y="22" width="2560" height="1418" id="Run" maximized="true" order="4" sideWeight="0.70392305" weight="0.3163482" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,17 +186,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LRU_Cache 2.py">
+    <entry file="file://$PROJECT_DIR$/LRU_Cache 2.py" />
+    <entry file="file://$PROJECT_DIR$/lru_cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LRU_Cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="295">
+          <caret line="261" column="5" selection-start-line="261" selection-start-column="5" selection-end-line="261" selection-end-column="5" />
         </state>
       </provider>
     </entry>

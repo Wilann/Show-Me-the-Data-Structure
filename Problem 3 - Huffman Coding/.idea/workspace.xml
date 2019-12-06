@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa33bf86-8b61-4895-8978-67dea036a18b" name="Default Changelist" comment="" />
+    <list default="true" id="fa33bf86-8b61-4895-8978-67dea036a18b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/LRU Cache Description.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/LRU Cache Explanation.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/LRU Cache Explanation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/File Recursion Description.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/File Recursion Description.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/Finding_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/Finding_Files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Huffman Coding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Huffman Coding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem 3 Description.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem 3 Description.pdf" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +25,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Huffman Coding.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="71">
+              <caret line="123" column="4" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="4" />
               <folding>
-                <element signature="e#4402#4520#0" />
-                <element signature="e#5888#5941#0" />
+                <element signature="e#2460#2748#1" />
               </folding>
             </state>
           </provider>
@@ -43,9 +54,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="956" />
+    <option name="x" value="1146" />
     <option name="y" value="24" />
-    <option name="width" value="1604" />
+    <option name="width" value="1414" />
     <option name="height" value="1311" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -126,7 +137,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="956" y="24" width="1604" height="1311" extended-state="0" />
+    <frame x="1146" y="24" width="1414" height="1311" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.07192871" />
@@ -134,7 +145,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="683" y="1463" width="1194" height="731" id="Run" order="2" type="FLOATING" />
+      <window_info anchor="bottom" x="825" y="461" width="1735" height="437" id="Run" order="2" weight="0.24666667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -146,7 +157,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="365" height="1111" id="Documentation" order="3" side_tool="true" visible="true" weight="0.16301547" />
+      <window_info anchor="right" x="0" y="0" width="365" height="1111" id="Documentation" order="3" side_tool="true" visible="true" weight="0.15712188" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -159,11 +170,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Huffman Coding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="71">
+          <caret line="123" column="4" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="4" />
           <folding>
-            <element signature="e#4402#4520#0" />
-            <element signature="e#5888#5941#0" />
+            <element signature="e#2460#2748#1" />
           </folding>
         </state>
       </provider>

@@ -9,12 +9,6 @@ class Node:
         self.right_child = right_child
         self.binary_code = ''
 
-    def get_left_child(self):
-        return self.left_child
-
-    def get_right_child(self):
-        return self.right_child
-
     def __str__(self):
         s = 'Node(' + self.letter + ', ' + str(self.frequency) + ')'
         return s
@@ -23,38 +17,34 @@ class Node:
 class Tree:
     def __init__(self, node):
         self.root = node
-        self.visit_order = []
+        self.binary_codes = {}
 
     def create_binary_codes(self, node):
         """
         Creates binary codes by traversing in-order
         :param node: root
-        :return:
+        :return: None
         """
-        if node:
-            # If there's a left child
-            if node.get_left_child() is not None:
-                # Traverse left subtree
-                self.create_binary_codes(node.get_left_child())
 
-                # Update binary code
-                node.binary_code += '0'
+        # If there's a left child
+        if node.left_child is not None:
+            # Update binary code
+            node.left_child.binary_code = node.binary_code + '0'
 
-            # visit node
-            self.visit_order.append(node)
+            # Traverse left subtree
+            self.create_binary_codes(node.left_child)
 
-            # If there's a right child
-            if node.get_right_child() is not None:
-                # traverse right sub-tree
-                self.create_binary_codes(node.get_right_child())
+        # If there's a right child
+        if node.right_child is not None:
+            # Update binary code
+            node.right_child.binary_code = node.binary_code + '1'
 
-                # Update binary code
-                node.binary_code += '1'
+            # Traverse right sub-tree
+            self.create_binary_codes(node.right_child)
 
-    # TODO: Define str for Tree
-    def __str__(self):
-        s = ''
-        return s
+        # Add nodes with letters to binary_code dictionary
+        if node.letter is not None and node.letter != '':
+            self.binary_codes[node.letter] = node.binary_code
 
 
 class PriorityQueue:
@@ -106,8 +96,6 @@ def huffman_encoding(data):
     :return: binary_tree: Binary tree with characters on leaves
     """
 
-    # Convert data to lowercase
-    data = data.lower()
     print("data:", data)
 
     # Determine frequencies of each character and store in dictionary of (character --> frequency)
@@ -146,24 +134,26 @@ def huffman_encoding(data):
     print("priority_queue after creating tree:", priority_queue)
 
     # Create (character --> binary code) dictionary
-    # binary_codes = dict()
-
     # Assign a binary code to each letter (shorter codes for more frequent letters)
     # From the root, every time we go left, we add a 0 & every time we go right, we add a 1
     # When we hit a leaf node that holds a letter, we return that binary code and assign it to that letter
     # e.g. 0111 is "left right right right", so binary_codes[letter] = "0111"
+    binary_codes = {}
     root = priority_queue.queue[0]
     binary_tree = Tree(root)
     binary_tree.create_binary_codes(root)
+    binary_codes = binary_tree.binary_codes
+    print("binary_codes:", binary_codes)
     print("binary_tree:", binary_tree)
 
     # Encode text into its compressed form (sequence of binary codes that were assigned to each letter)
     # Read input and access (character --> binary code) dictionary
     # E.g. binary_codes[first_letter] + binary_codes[second_letter] + ...
     compressed_form = ''
-    for node in binary_tree.visit_order:
-        compressed_form += node.binary_code
+    for letter in data:
+        compressed_form += binary_codes[letter]
     print("compressed_form:", compressed_form)
+    print()
 
     return compressed_form, binary_tree
 
@@ -176,7 +166,34 @@ def huffman_decoding(data, tree):
     :param tree:
     :return:
     """
-    pass
+
+    decoded_data = ''
+    root = tree.root
+    node = root  # Node used for traverse tree
+    index = 0  # Index used to traverse data
+
+    # Iterate over data
+    while index != len(data):
+        # print(decoded_data, node, index)
+
+        # If current bit is 0
+        if data[index] == '0':
+            # Move to the left node
+            node = node.left_child
+
+        # Elif current bit is 1
+        elif data[index] == '1':
+            # Move to the right node
+            node = node.right_child
+
+        # If we hit a leaf node, append the letter to decoded_data and restart at the root
+        if node.left_child is None and node.right_child is None:
+            decoded_data += node.letter
+            node = root
+
+        index += 1
+
+    return decoded_data
 
 
 if __name__ == "__main__":
@@ -192,7 +209,7 @@ if __name__ == "__main__":
     print("The size of the encoded data is: {}\n".format(sys.getsizeof(int(encoded_data, base=2))))
     print("The content of the encoded data is: {}\n".format(encoded_data))
 
-    # decoded_data = huffman_decoding(encoded_data, tree)
+    decoded_data = huffman_decoding(encoded_data, tree)
 
-    # print("The size of the decoded data is: {}\n".format(sys.getsizeof(decoded_data)))
-    # print("The content of the encoded data is: {}\n".format(decoded_data))
+    print("The size of the decoded data is: {}\n".format(sys.getsizeof(decoded_data)))
+    print("The content of the decoded data is: {}\n".format(decoded_data))
