@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908415e5-bb34-43fd-94d7-a9034b8087e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 4 - Active Directory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 4 - Active Directory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 4 - Active Directory/Group.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 4 - Active Directory/Group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 4 - Active Directory/Problem 4 Description.pages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 4 - Active Directory/Problem 4 Description.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Block.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="784">
+              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -41,9 +44,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="875" />
+    <option name="x" value="969" />
     <option name="y" value="24" />
-    <option name="width" value="1685" />
+    <option name="width" value="1591" />
     <option name="height" value="1311" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -126,7 +129,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="875" y="24" width="1685" height="1311" extended-state="0" />
+    <frame x="969" y="24" width="1591" height="1311" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14390692" />
@@ -134,7 +137,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="683" y="1440" width="1194" height="834" id="Run" order="2" type="WINDOWED" weight="0.1825" />
+      <window_info active="true" anchor="bottom" x="955" y="613" width="1605" height="133" id="Run" order="2" visible="true" weight="0.1825" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -152,8 +155,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Block.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="784">
+          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
         </state>
       </provider>
     </entry>
