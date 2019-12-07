@@ -1,9 +1,10 @@
 import hashlib
+import datetime
 
 
 class Block:
 
-    def __init__(self, timestamp, data, previous_hash):
+    def __init__(self, timestamp, data, previous_hash=0):
         """
         Creates the Block on the Blockchain using SHA-256 hash and Greenwich Mean Time
 
@@ -40,7 +41,7 @@ class Block:
         s = ''
         s += "Timestamp: " + self.timestamp + "\n"
         s += "Data: " + self.data + "\n"
-        s += "SHA256: " + str(self.hash) + "\n"
+        s += "SHA256 Hash: " + str(self.hash) + "\n"
         s += "Prev_Hash: " + str(self.previous_hash) + "\n"
         return s
 
@@ -66,9 +67,12 @@ class BlockChain:
         return s
 
 
-block0 = Block("13:12 4/2/2019", "Block 0's Information", 0)
-block1 = Block("13:12 4/2/2019", "Block 1's Information", block0.hash)
-block2 = Block("13:12 4/2/2019", "Block 2's Information", block1.hash)
+block0 = Block(str(datetime.datetime.now(datetime.timezone.utc).strftime("%H:%M:%S %m-%d-%y")), "Block 0's Information",
+               0)
+block1 = Block(str(datetime.datetime.now(datetime.timezone.utc).strftime("%H:%M:%S %m-%d-%y")), "Block 1's Information",
+               block0.hash)
+block2 = Block(str(datetime.datetime.now(datetime.timezone.utc).strftime("%H:%M:%S %m-%d-%y")), "Block 2's Information",
+               block1.hash)
 
 blockchain = BlockChain()
 blockchain.add_block(block0)
