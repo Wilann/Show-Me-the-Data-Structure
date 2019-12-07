@@ -56,8 +56,6 @@ class LinkedList:
         # Last value
         return node.value == value
 
-        return False
-
 
 def union(llist_1, llist_2):
     """
@@ -100,7 +98,6 @@ def union(llist_1, llist_2):
     return union_list
 
 
-# TODO
 def intersection(llist_1, llist_2):
     """
     Returns the set of elements which are in both lists
