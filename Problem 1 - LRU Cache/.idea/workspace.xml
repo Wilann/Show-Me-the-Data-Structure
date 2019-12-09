@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="942ebcdc-433d-42dc-8c68-efb41760f2f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LRU Cache Description.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LRU Cache Explanation.pages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LRU Cache Explanation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/File Recursion Description.pages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/File Recursion Description.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/Finding_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/Finding_Files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explanation_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lru_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/lru_cache.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lru_cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="261" column="5" selection-start-line="261" selection-start-column="5" selection-end-line="261" selection-end-column="5" />
+            <state relative-caret-position="-2812">
+              <caret line="102" column="37" lean-forward="true" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -46,13 +42,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/LRU_Cache.py" />
+        <option value="$PROJECT_DIR$/lru_cache.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1566" />
+    <option name="x" value="1326" />
     <option name="y" value="23" />
-    <option name="width" value="994" />
+    <option name="width" value="1234" />
     <option name="height" value="1312" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,7 +58,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,6 +69,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,10 +148,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1566" y="23" width="994" height="1312" extended-state="0" />
+    <frame x="1326" y="23" width="1234" height="1312" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.3046133" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49889624" weight="0.30451128" />
       <window_info id="Structure" order="1" sideWeight="0.50110376" side_tool="true" weight="0.09698276" />
       <window_info id="Favorites" order="2" sideWeight="0.50110376" side_tool="true" weight="0.24980268" />
       <window_info x="1025" y="23" width="655" height="316" id="TODO" order="3" sideWeight="0.49296817" side_tool="true" weight="0.261563" />
@@ -170,8 +167,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" sideWeight="0.29607698" side_tool="true" weight="0.20175439" />
-      <window_info anchor="right" x="0" y="22" width="2560" height="1418" id="Run" maximized="true" order="4" sideWeight="0.70392305" weight="0.3163482" />
+      <window_info anchor="right" x="2035" y="104" width="473" height="397" id="Documentation" order="3" show_stripe_button="false" sideWeight="0.2972523" side_tool="true" weight="0.3151629" />
+      <window_info anchor="right" x="0" y="22" width="2560" height="1418" id="Run" maximized="true" order="4" sideWeight="0.7027477" weight="0.33145362" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,11 +183,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LRU_Cache 2.py" />
+    <entry file="file://$PROJECT_DIR$/lru_cache 2.py" />
     <entry file="file://$PROJECT_DIR$/lru_cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="261" column="5" selection-start-line="261" selection-start-column="5" selection-end-line="261" selection-end-column="5" />
+        <state relative-caret-position="-2812">
+          <caret line="102" column="37" lean-forward="true" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
         </state>
       </provider>
     </entry>

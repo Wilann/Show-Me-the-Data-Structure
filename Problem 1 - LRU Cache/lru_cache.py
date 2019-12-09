@@ -200,7 +200,7 @@ class LRU_Cache(object):
         # Key isn't in cache (Catch Miss)
         return -1
 
-    def set(self, key, value):
+    def set(self, key=None, value=None):
         """
         Set the value if the key is not present in the cache. \n
         If the cache is full, remove the oldest / least recently used item. Then insert the element. \n
@@ -210,6 +210,13 @@ class LRU_Cache(object):
         :param value: value
         :return:
         """
+
+        # Edge cases
+        if key is None or value is None:
+            return
+        elif self.capacity == 0:
+            print("Can't perform operations on a 0 capacity cache")
+            return
 
         # If key isn't in the cache
         if key not in self.cache:
@@ -255,7 +262,24 @@ class LRU_Cache(object):
         return s
 
 
+# Edge test cases for empty cache
+our_cache = LRU_Cache(0)
+print("our_cache:", our_cache, '\n')
+
+print("--our_cache.set(1, 1)--")
+our_cache.set(1, 1)  # Can't perform operations on a 0 capacity cache
+print("our_cache:", our_cache, '\n')
+
+print("--our_cache.get(1)--")
+print("our_cache.get(1):", our_cache.get(1))  # returns -1
+print("our_cache:", our_cache, '\n')
+
+# General test cases
 our_cache = LRU_Cache(5)
+print("our_cache:", our_cache, '\n')
+
+print("--our_cache.set(, )--")
+our_cache.set()  # No return
 print("our_cache:", our_cache, '\n')
 
 print("--our_cache.set(1, 1)--")

@@ -3,16 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fa33bf86-8b61-4895-8978-67dea036a18b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/LRU Cache Description.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/LRU Cache Explanation.pages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/LRU Cache Explanation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/explanation_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/explanation_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/lru_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/lru_cache.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/File Recursion Description.pages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/File Recursion Description.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/Finding_Files.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/Finding_Files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Huffman Coding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Huffman Coding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem 3 Description.pages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem 3 Description.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/finding_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/finding_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explanation_3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_coding.py" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_coding.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +19,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Huffman Coding.py">
+        <entry file="file://$PROJECT_DIR$/huffman_coding.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="123" column="4" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="4" />
+            <state relative-caret-position="114">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
-                <element signature="e#2460#2748#1" />
+                <element signature="e#29#392#0" />
+                <element signature="e#411#1372#0" />
+                <element signature="e#1400#2570#0" />
+                <element signature="e#1519#1542#0" />
+                <element signature="e#1577#1625#0" />
+                <element signature="e#1669#2173#0" />
+                <element signature="e#2206#2300#0" />
               </folding>
             </state>
           </provider>
@@ -50,13 +52,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Huffman Coding.py" />
+        <option value="$PROJECT_DIR$/huffman_coding.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1146" />
+    <option name="x" value="1245" />
     <option name="y" value="24" />
-    <option name="width" value="1414" />
+    <option name="width" value="1315" />
     <option name="height" value="1311" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.huffman_coding">
     <configuration name="Huffman Coding" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Problem 3 - Huffman Coding" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,8 +120,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="huffman_coding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Problem 3 - Huffman Coding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huffman_coding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.huffman_coding" />
         <item itemvalue="Python.Huffman Coding" />
       </list>
     </recent_temporary>
@@ -137,15 +162,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1146" y="24" width="1414" height="1311" extended-state="0" />
+    <frame x="1245" y="24" width="1315" height="1311" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.07192871" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20605187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="825" y="461" width="1735" height="437" id="Run" order="2" weight="0.24666667" />
+      <window_info anchor="bottom" x="825" y="461" width="1735" height="437" id="Run" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -157,7 +182,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="365" height="1111" id="Documentation" order="3" side_tool="true" visible="true" weight="0.15712188" />
+      <window_info anchor="right" x="0" y="0" width="365" height="1111" id="Documentation" order="3" show_stripe_button="false" side_tool="true" weight="0.15970351" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -168,12 +193,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Huffman Coding.py">
+    <entry file="file://$PROJECT_DIR$/Huffman Coding.py" />
+    <entry file="file://$PROJECT_DIR$/huffman_coding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="123" column="4" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="4" />
+        <state relative-caret-position="114">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
-            <element signature="e#2460#2748#1" />
+            <element signature="e#29#392#0" />
+            <element signature="e#411#1372#0" />
+            <element signature="e#1400#2570#0" />
+            <element signature="e#1519#1542#0" />
+            <element signature="e#1577#1625#0" />
+            <element signature="e#1669#2173#0" />
+            <element signature="e#2206#2300#0" />
           </folding>
         </state>
       </provider>

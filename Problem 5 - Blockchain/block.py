@@ -4,15 +4,14 @@ import datetime
 
 class Block:
 
-    def __init__(self, timestamp, data, previous_hash=0):
+    def __init__(self, data, previous_hash=0):
         """
         Creates the Block on the Blockchain using SHA-256 hash and Greenwich Mean Time
 
-        :param timestamp: Time when created
         :param data: String of transaction data
         :param previous_hash: Connection to previous block
         """
-        self.timestamp = timestamp
+        self.timestamp = datetime.datetime.now(datetime.timezone.utc).strftime("%H:%M:%S %m-%d-%y")
         self.data = data
         self.previous_hash = previous_hash
         self.hash = self.calc_hash()
@@ -50,14 +49,23 @@ class BlockChain:
 
     def __init__(self):
         self.blockchain = []
+        self.length = 0
 
-    def add_block(self, block):
+    def add_block(self, str):
         """
         Adds a block to the blockchain
 
         :return: None
         """
+
+        # If we're adding the first block
+        if self.length == 0:
+            block = Block("Block " + str + "'s Information", 0)
+        else:
+            block = Block("Block " + str + "'s Information", self.blockchain[self.length - 1].hash)
+
         self.blockchain.append(block)
+        self.length += 1
 
     def __repr__(self):
         s = ''
@@ -67,15 +75,8 @@ class BlockChain:
         return s
 
 
-block0 = Block(str(datetime.datetime.now(datetime.timezone.utc).strftime("%H:%M:%S %m-%d-%y")), "Block 0's Information",
-               0)
-block1 = Block(str(datetime.datetime.now(datetime.timezone.utc).strftime("%H:%M:%S %m-%d-%y")), "Block 1's Information",
-               block0.hash)
-block2 = Block(str(datetime.datetime.now(datetime.timezone.utc).strftime("%H:%M:%S %m-%d-%y")), "Block 2's Information",
-               block1.hash)
-
 blockchain = BlockChain()
-blockchain.add_block(block0)
-blockchain.add_block(block1)
-blockchain.add_block(block2)
+blockchain.add_block("0")
+blockchain.add_block("1")
+blockchain.add_block("2")
 print(blockchain)

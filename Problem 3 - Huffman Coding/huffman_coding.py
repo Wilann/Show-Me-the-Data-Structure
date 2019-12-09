@@ -15,8 +15,9 @@ class Node:
 
 
 class Tree:
-    def __init__(self, node):
+    def __init__(self, node, single_character):
         self.root = node
+        self.single_character = single_character
         self.binary_codes = {}
 
     def create_binary_codes(self, node):
@@ -25,6 +26,12 @@ class Tree:
         :param node: root
         :return: None
         """
+
+        # If data to be compressed only consists of one unique character
+        if self.single_character:
+            node.binary_code = '0'
+            self.binary_codes[node.letter] = node.binary_code
+            return
 
         # If there's a left child
         if node.left_child is not None:
@@ -96,6 +103,11 @@ def huffman_encoding(data):
     :return: binary_tree: Binary tree with characters on leaves
     """
 
+    # Edge cases
+    if data is None or data == '':
+        print("No data to encode")
+        return None, None
+
     print("data:", data)
 
     # Determine frequencies of each character and store in dictionary of (character --> frequency)
@@ -139,10 +151,15 @@ def huffman_encoding(data):
     # When we hit a leaf node that holds a letter, we return that binary code and assign it to that letter
     # e.g. 0111 is "left right right right", so binary_codes[letter] = "0111"
     binary_codes = {}
-    root = priority_queue.queue[0]
-    binary_tree = Tree(root)
-    binary_tree.create_binary_codes(root)
+    root = priority_queue.queue[0]  # Get root
+    if data == len(data) * data[0]:  # Check if data consists of a single unique character e.g 'AAAAA'
+        single_character = True
+    else:
+        single_character = False
+    binary_tree = Tree(root, single_character)  # Create binary tree
+    binary_tree.create_binary_codes(root)  # Create binary codes
     binary_codes = binary_tree.binary_codes
+
     print("binary_codes:", binary_codes)
     print("binary_tree:", binary_tree)
 
@@ -172,6 +189,11 @@ def huffman_decoding(data, tree):
     node = root  # Node used for traverse tree
     index = 0  # Index used to traverse data
 
+    # If encoded data only consists of one unique character
+    if tree.single_character:
+        decoded_data = root.letter * root.frequency
+        return decoded_data
+
     # Iterate over data
     while index != len(data):
         # print(decoded_data, node, index)
@@ -196,20 +218,28 @@ def huffman_decoding(data, tree):
     return decoded_data
 
 
-if __name__ == "__main__":
-    codes = {}
+def test_function(sentence):
+    encoded_data, tree = huffman_encoding(sentence)
 
-    a_great_sentence = "The bird is the word"
+    if encoded_data is not None:
+        print("The size of the data is: {}\n".format(sys.getsizeof(sentence)))
+        print("The content of the data is: {}\n".format(sentence))
 
-    print("The size of the data is: {}\n".format(sys.getsizeof(a_great_sentence)))
-    print("The content of the data is: {}\n".format(a_great_sentence))
+        print("The size of the encoded data is: {}\n".format(sys.getsizeof(int(encoded_data, base=2))))
+        print("The content of the encoded data is: {}\n".format(encoded_data))
 
-    encoded_data, tree = huffman_encoding(a_great_sentence)
+        decoded_data = huffman_decoding(encoded_data, tree)
 
-    print("The size of the encoded data is: {}\n".format(sys.getsizeof(int(encoded_data, base=2))))
-    print("The content of the encoded data is: {}\n".format(encoded_data))
+        print("The size of the decoded data is: {}\n".format(sys.getsizeof(decoded_data)))
+        print("The content of the decoded data is: {}\n".format(decoded_data))
+    print('\n\n\n')
 
-    decoded_data = huffman_decoding(encoded_data, tree)
 
-    print("The size of the decoded data is: {}\n".format(sys.getsizeof(decoded_data)))
-    print("The content of the decoded data is: {}\n".format(decoded_data))
+# Edge test cases
+test_function('')
+test_function('A')
+test_function('AA')
+test_function('AAAAA')
+
+# General test case
+test_function("The bird is the word")

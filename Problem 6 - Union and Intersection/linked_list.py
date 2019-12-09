@@ -65,35 +65,24 @@ def union(llist_1, llist_2):
     :param llist_2: LinkedList
     :return: Union LinkedList
     """
+    l = set()
+
+    # Add all values of first list to set
+    current = llist_1.head
+    while current:
+        l.add(current.value)
+        current = current.next
+
+    # Add all values of second list to set
+    current = llist_2.head
+    while current:
+        l.add(current.value)
+        current = current.next
+
+    # Convert set to linked list
     union_list = LinkedList()
-
-    # Populate linked list with unique values llist_1
-    node = llist_1.head
-    while node.next:
-
-        # If the node's value isn't in the linked list
-        if node.value not in union_list:
-            union_list.append(node.value)
-
-        node = node.next
-
-    # Account for last value of llist_1
-    if node.value not in union_list:
-        union_list.append(node.value)
-
-    # Populate linked list with unique values llist_2
-    node = llist_2.head
-    while node.next:
-
-        # If the node's value isn't in the linked list
-        if node.value not in union_list:
-            union_list.append(node.value)
-
-        node = node.next
-
-    # Account for last value of llist_2
-    if node.value not in union_list:
-        union_list.append(node.value)
+    for num in l:
+        union_list.append(num)
 
     return union_list
 
@@ -106,21 +95,25 @@ def intersection(llist_1, llist_2):
     :param llist_2: LinkedList
     :return: Intersection LinkedList
     """
+
+    # Add all values of first list to set 1
+    l1 = set()
+    current = llist_1.head
+    while current:
+        l1.add(current.value)
+        current = current.next
+
+    # Add all values of second list to set s
+    l2 = set()
+    current = llist_2.head
+    while current:
+        l2.add(current.value)
+        current = current.next
+
+    l = l1.intersection(l2)
     intersection_list = LinkedList()
-
-    # Traverse llist_1
-    node = llist_1.head
-    while node.next:
-
-        # If node's value is in llist_2 and isn't already in intersection_list (checking for duplicates)
-        if node.value in llist_2 and node.value not in intersection_list:
-            intersection_list.append(node.value)
-
-        node = node.next
-
-    # Account for last value of llist_1
-    if node.value in llist_2 and node.value not in intersection_list:
-        intersection_list.append(node.value)
+    for num in l:
+        intersection_list.append(num)
 
     return intersection_list
 

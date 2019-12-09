@@ -1,7 +1,7 @@
 import os
 
 
-def find_files(suffix, path):
+def find_files(suffix='', path='.'):
     """
     Find all files beneath path with file name suffix.
 
@@ -17,6 +17,13 @@ def find_files(suffix, path):
     Returns:
        a list of paths
     """
+
+    # Edge cases
+    if path is None:
+        return "No path specified"
+    elif not isinstance(path, str):
+        return "Path isn't a valid path"
+
     files = []
 
     # For all files in the current directory
@@ -44,6 +51,11 @@ def find_files(suffix, path):
     return files
 
 
+# Edge test cases
+print("find_files(, None):", find_files('', None), '\n')
+print("find_files(, -1):", find_files('', -1), '\n')
+
+# General test cases
 print("find_files(\"\", .):", find_files("", "."), '\n')
 print("find_files(\".py\", .):", find_files(".py", "."), '\n')
 print("find_files(\".pdf\", .):", find_files(".pdf", "."), '\n')

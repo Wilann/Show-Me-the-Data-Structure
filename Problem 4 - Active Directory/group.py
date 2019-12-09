@@ -28,7 +28,14 @@ def is_user_in_group(user, group):
       user(str): user name/id
       group(class:Group): group to check user membership against
     """
-    return user in group.get_users()
+
+    if user == group.get_name() or user in group.get_users():
+        return True
+
+    for group in group.get_groups():
+        return is_user_in_group(user, group)
+
+    return False
 
 
 parent = Group("parent")
@@ -41,14 +48,9 @@ sub_child.add_user(sub_child_user)
 child.add_group(sub_child)
 parent.add_group(child)
 
-print("Pass: is_user_in_group(sub_child_user, sub_child) = " + str(is_user_in_group(sub_child_user, sub_child))
-      if is_user_in_group(sub_child_user, sub_child) else
-      "Fail: is_user_in_group(sub_child_user, sub_child) != " + str(is_user_in_group(sub_child_user, sub_child)))
-
-print("Pass: is_user_in_group(sub_child_user, child) = " + str(is_user_in_group(sub_child_user, child))
-      if not is_user_in_group(sub_child_user, child) else
-      "Fail: is_user_in_group(sub_child_user, child) != " + str(is_user_in_group(sub_child_user, child)))
-
-print("Pass: is_user_in_group(sub_child_user, parent) = " + str(is_user_in_group(sub_child_user, parent))
-      if not is_user_in_group(sub_child_user, parent) else
-      "Fail: is_user_in_group(sub_child_user, parent) != " + str(is_user_in_group(sub_child_user, parent)))
+print(is_user_in_group(sub_child_user, sub_child))  # True
+print(is_user_in_group(sub_child_user, child))  # True
+print(is_user_in_group(sub_child_user, parent))  # True
+print(is_user_in_group("child", child))  # True
+print(is_user_in_group("", child))  # False
+print(is_user_in_group("sub_child_user", parent))  # True
