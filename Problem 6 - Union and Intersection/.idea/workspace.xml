@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db643003-4b2f-492d-8421-dfbc3cba59db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/explanation_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/explanation_1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/lru_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/lru_cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/finding_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/finding_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/explanation_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/explanation_3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/huffman_coding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/huffman_coding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 4 - Active Directory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 4 - Active Directory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 4 - Active Directory/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 4 - Active Directory/group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Problem 5 - Blockchain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 5 - Blockchain/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Problem 5 - Blockchain/block.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 5 - Blockchain/block.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 5 - Blockchain/explanation_5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 5 - Blockchain/explanation_5.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explanation_6.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="110" column="25" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
+            <state relative-caret-position="78">
+              <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -56,9 +44,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1126" />
+    <option name="x" value="1041" />
     <option name="y" value="24" />
-    <option name="width" value="1434" />
+    <option name="width" value="1519" />
     <option name="height" value="1311" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,7 +150,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1126" y="24" width="1434" height="1311" extended-state="0" />
+    <frame x="1041" y="24" width="1519" height="1311" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15838069" />
@@ -182,15 +170,15 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="371" height="1111" id="Documentation" order="3" side_tool="true" visible="true" weight="0.28075254" />
+      <window_info anchor="right" x="0" y="0" width="371" height="1111" id="Documentation" order="3" side_tool="true" visible="true" weight="0.2801636" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LinkedList.py" />
     <entry file="file://$PROJECT_DIR$/linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="110" column="25" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
+        <state relative-caret-position="78">
+          <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
         </state>
       </provider>
     </entry>

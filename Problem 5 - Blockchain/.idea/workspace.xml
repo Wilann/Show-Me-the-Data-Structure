@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908415e5-bb34-43fd-94d7-a9034b8087e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/explanation_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/explanation_1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 1 - LRU Cache/lru_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 1 - LRU Cache/lru_cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 2 - File Recursion/finding_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 2 - File Recursion/finding_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/explanation_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/explanation_3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/huffman_coding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 3 - Huffman Coding/huffman_coding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 4 - Active Directory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 4 - Active Directory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Problem 4 - Active Directory/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem 4 - Active Directory/group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/block.py" beforeDir="false" afterPath="$PROJECT_DIR$/block.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/block.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="727">
+              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -55,9 +45,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1255" />
-    <option name="y" value="24" />
-    <option name="width" value="1305" />
+    <option name="x" value="1041" />
+    <option name="y" value="23" />
+    <option name="width" value="1519" />
     <option name="height" value="1311" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -140,7 +130,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1255" y="24" width="1305" height="1311" extended-state="0" />
+    <frame x="1041" y="23" width="1519" height="1311" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14390692" />
@@ -148,7 +138,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="955" y="613" width="1605" height="133" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" x="955" y="613" width="1605" height="133" id="Run" order="2" weight="0.39666668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -166,8 +156,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/block.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="727">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>

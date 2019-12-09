@@ -96,23 +96,26 @@ def intersection(llist_1, llist_2):
     :return: Intersection LinkedList
     """
 
-    # Add all values of first list to set 1
-    l1 = set()
+    # Create set of llist_1
+    list_3 = set()
     current = llist_1.head
     while current:
-        l1.add(current.value)
+        list_3.add(current.value)
         current = current.next
 
-    # Add all values of second list to set s
-    l2 = set()
+    # Create set of llist_2
+    list_4 = set()
     current = llist_2.head
     while current:
-        l2.add(current.value)
+        list_4.add(current.value)
         current = current.next
 
-    l = l1.intersection(l2)
+    # Add values of llist_1 if they're in llist_2
+    list_5 = [value for value in list_3 if value in list_4]
+
+    # Create a linked list
     intersection_list = LinkedList()
-    for num in l:
+    for num in list_5:
         intersection_list.append(num)
 
     return intersection_list

@@ -51,23 +51,33 @@ class BlockChain:
         self.blockchain = []
         self.length = 0
 
-    def add_block(self, str):
+    def add_block(self, data=None):
         """
         Adds a block to the blockchain
 
         :return: None
         """
 
+        # Edge case
+        if data is None:
+            print("Can't add block without data")
+            return
+
         # If we're adding the first block
         if self.length == 0:
-            block = Block("Block " + str + "'s Information", 0)
+            block = Block(data, 0)
         else:
-            block = Block("Block " + str + "'s Information", self.blockchain[self.length - 1].hash)
+            block = Block(data, self.blockchain[self.length - 1].hash)
 
         self.blockchain.append(block)
         self.length += 1
 
     def __repr__(self):
+
+        # Edge case
+        if len(self.blockchain) == 0:
+            return "Blockchain empty"
+
         s = ''
         for i in range(len(self.blockchain)):
             s += "Block " + str(i) + "\n"
@@ -76,6 +86,13 @@ class BlockChain:
 
 
 blockchain = BlockChain()
+
+# Edge test cases
+print(blockchain)
+blockchain.add_block()
+print()
+
+# Test cases
 blockchain.add_block("0")
 blockchain.add_block("1")
 blockchain.add_block("2")
